@@ -16,4 +16,6 @@ lto = true
 panic = 'abort'
 
 [profile.dev]
+lto = true
+opt-level = 's'
 panic = 'abort'
